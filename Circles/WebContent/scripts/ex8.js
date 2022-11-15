@@ -1,5 +1,5 @@
 function d3Draw() {
-	var dataset = [ 5, 10, 15, 20, 25, 31 ];
+	var dataset = [ 5, 10, 15, 20, 25, 32 ];
 	Width = 300;
 	Height = 200;
 	var svg = d3.select("body").append("svg").attr("width", Width).attr(
