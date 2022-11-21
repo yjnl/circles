@@ -12,7 +12,7 @@ function d3Draw() {
 		return (i * 50) + 25;
 	}).attr("cy", Height / 2).attr("r", function(d) {
 		return d;
-	});
+	}).attr('fill','red');
 
 }
 window.onload = d3Draw;
