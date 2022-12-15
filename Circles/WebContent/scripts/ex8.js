@@ -1,5 +1,5 @@
 function d3Draw() {
-	var dataset = [ 5, 10, 15, 20, 25, 30 ];
+	var dataset = [ 5, 10, 15, 20, 25, 50 ];
 	Width = 300;
 	Height = 200;
 	var svg = d3.select("body").append("svg").attr("width", Width).attr(
@@ -12,7 +12,7 @@ function d3Draw() {
 		return (i * 50) + 25;
 	}).attr("cy", Height / 2).attr("r", function(d) {
 		return d;
-	}).attr("fill", "green");
+	}).attr("fill", "red");
 
 }
 window.onload = d3Draw;
